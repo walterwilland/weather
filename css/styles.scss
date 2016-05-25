@@ -3,8 +3,29 @@
 @import 'weather';
 
 /* My Styles */
+li {
+    list-style: none;
+}
+
 #cheney i {
     color: skyblue;
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 2px 2px grey;
+}
+
+#d1 i {
+    color: darkorange;
+    font-size: 4em;
+    text-shadow: 2px 2px grey;
+}
+
+#spokane i {
+    color: darkseagreen;
+    font-size: 4em;
+    text-shadow: 2px 2px grey;
+}
+
+/* Custom Background */
+.bg-1 {
+    background-image: url(../img/cloudy.JPG);
 }

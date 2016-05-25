@@ -26,7 +26,7 @@
 
 
 
-	<title>Web 3 Starter Starter</title>
+	<title>Weather</title>
 	
 	<!-- Compiled Stylesheet -->
 	<link rel="stylesheet" href="css-min/styles.min.css">
@@ -131,25 +131,56 @@
     </style>	
 
 </head>
-<body>
+<body class="">
 	
     <div class="ui top attached tabular menu">
         <a class="active item" data-tab="first">Cheney</a>
         <a class="item" data-tab="second">Spokane</a>
-        <a class="item" data-tab="third">Shwing</a>
+        <a class="item" data-tab="third">Find Me</a>
     </div>
     
     <div class="ui bottom attached active tab segment" data-tab="first">
         <ul class="ui list" id="cheney">
             <li class="item city">City</li>
             <li class="item temp">00</li>
-            <li class="item icon"><i> </i></li>
+            <li class="item icon"><i class=""> </i></li>
         </ul>
+        
+        <h4>Cheney Forecast</h4>
+        <ui class="ui list" id="d1">
+            <li class="item day">Day</li>
+            <li class="item temp">00</li>
+            <li class="item icon"><i class=""> </i></li>
+        </ui>
+        
     </div>
-    <div class="ui bottom attached tab segment" data-tab="second">Second</div>
-    <div class="ui bottom attached tab segment" data-tab="third">Third</div>
-
-
+    <div class="ui bottom attached tab segment" data-tab="second">
+        <ul class="ui list" id="spokane">
+            <li class="item city">City</li>
+            <li class="item temp">00</li>
+            <li class="item icon"><i class=""> </i></li>
+        </ul>
+        
+        <h4>Spokane Forecast</h4>
+        <ui class="ui list" id="d1">
+            <li class="item day">Day</li>
+            <li class="item temp">00</li>
+            <li class="item icon"><i class=""> </i></li>
+        </ui>
+        
+    </div>
+    <div class="geo ui bottom attached tab segment" data-tab="third">
+        
+        <button class="ui purple button">Locate</button>   
+           
+        <ul class="ui list">
+            <li class="item city">City</li>
+            <li class="item temp">00</li>
+            <li class="item icon"><i class=""> </i></li>
+        </ul>
+        
+    </div>
+    
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js-min/jquery-2.2.2-min.js"><\/script>')</script>
 	<script src="js-min/scripts.min.js"></script>

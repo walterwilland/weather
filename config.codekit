@@ -140,6 +140,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/cloudy.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.62794e+06,
+		"inputAbbreviatedPath": "\/img\/cloudy.JPG",
+		"outputAbbreviatedPath": "\/img\/cloudy.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/favicon\/android-chrome-144x144.png": {
 		"fileType": 32768,
 		"ignore": 0,
